@@ -1,0 +1,83 @@
+body {
+    background-color: #272626;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #050810;
+}
+
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.banner-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.portfolio-section {
+    padding: 50px 0;
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.portfolio-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.tech-tags span {
+    display: inline-block;
+    background: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-right: 5px;
+    font-size: 14px;
+}
+
+footer {
+    background-color: #111111;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 15px;
+}
+
+footer a {
+    color: #fff;
+    margin: 0 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .portfolio-item {
+        text-align: center;
+    }
+
+    .portfolio-item .col-md-4, .portfolio-item .col-md-8 {
+        text-align: center;
+    }
+
+    .portfolio-item img {
+        margin: 0 auto 20px;
+    }
+
+    .banner-img img {
+        max-height: 300px;
+        object-fit: cover;
+    }
+
+    .container {
+        padding: 0 15px;
+    }
+}

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/Arman.png" alt="Logo"> 
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link btn btn-primary text-white" href="#contact">Resume</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Banner Section -->
+<section class="d-flex align-items-center py-5">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6">
+                <h1 class="display-4">HI !<br>I'M Arman H Jahid</h1>
+                <p class="lead">Web Developer || Backend Developer || Programmer</p>
+                <p>This is Arman H Jahid. You can call me Arman. I am just 19 years old. Currently, I am doing my bachelor's degree in Mathematics at Chowmuhani Government SA College under the National University. Besides this, I am a software engineer. I provide software engineering services like front-end, back-end, and full-stack development.</p>
+                <a href="#" class="btn btn-primary">Resume</a>
+            </div>
+            <div class="col-md-6 banner-img">
+                <img src="images/IMG_20231223_191803_973_2-removebg.png" alt="Banner Image"> 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+    <div class="container">
+        <h1 class="text-center mb-5">Portfolio</h1>
+        
+        <!-- First Project -->
+        <div class="portfolio-item row align-items-center">
+            <div class="col-md-4">
+                <img src="images/travel-guru-map.png" alt="Project Image" class="portfolio-image">
+            </div>
+            <div class="col-md-8">
+                <h3 class="project-title">Urban Riders</h3>
+                <p>This is a Travel Service Agency website. Users can log in via Facebook, Google, or GitHub, and they can create accounts to use the service. Firebase authentication is used for security.</p>
+                <ul>
+                    <li>User can select the perfect vehicle.</li>
+                    <li>Users can see their current location.</li>
+                    <li>Firebase authentication for secure login.</li>
+                    <li>Create accounts via multiple platforms.</li>
+                </ul>
+                <div class="tech-tags">
+                    <span>React</span>
+                    <span>Firebase</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Node</span>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Second Project -->
+        <div class="portfolio-item row align-items-center">
+            <div class="col-md-4">
+                <img src="images/Travel-Search.png" alt="Project Image" class="portfolio-image">
+            </div>
+            <div class="col-md-8">
+                <h3 class="project-title">Online University</h3>
+                <p>This is an online education platform where users can enroll in courses, track their progress, and interact with instructors. The website supports multiple login options with Firebase integration.</p>
+                <ul>
+                    <li>Secure authentication via Firebase.</li>
+                    <li>Enrolment and progress tracking for students.</li>
+                    <li>Interactive forums and messaging system.</li>
+                    <li>Responsive design for all devices.</li>
+                </ul>
+                <div class="tech-tags">
+                    <span>React</span>
+                    <span>Firebase</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>Node</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+    <div class="container">
+        <h2 class="text-center">Skills</h2>
+        <div class="skills-tags text-center mt-3">
+            <h5>Expertise:</h5>
+            <span class="badge bg-primary">Python</span>
+            <span class="badge bg-primary">JavaScript</span>
+            <span class="badge bg-primary">HTML</span>
+            <span class="badge bg-primary">CSS</span>
+        </div>
+        <div class="skills-tags text-center mt-3">
+            <h5>Comfortable:</h5>
+            <span class="badge bg-secondary">Python</span>
+            <span class="badge bg-secondary">Django</span>
+        </div>
+        <div class="tools-tags text-center mt-3">
+            <h5>Tools:</h5>
+            <span class="badge bg-success">VSCode</span>
+            <span class="badge bg-success">Git</span>
+        </div>
+        <div class="container mt-3">
+            <h2 class="text-center">My Education</h2>
+            <p class="text-center">B.sc in Mathematics, National University</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section boarder">
+    <div class="container">
+        <h2 class="text-center">Contact with Me</h2>
+        <form class="contact-form mt-4">
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Please type your name">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control" placeholder="Please type your email">
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" rows="4" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary w-100">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <div class="container mt-6">
+        <p>&copy; 2024 Arman H Jahid | Dhaka, Bangladesh</p>
+        <div>
+            <a href="https://github.com/ArmanHJahid" class="me-3">
+                <i class="fab fa-github fa-lg"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/arman-h-jahid-4996b2299/" class="me-3">
+                <i class="fab fa-linkedin fa-lg"></i>
+            </a>
+            <a href="https://www.youtube.com/@ArmanHJahid" class="me-3">
+                <i class="fab fa-youtube fa-lg"></i>
+            </a>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js" crossorigin="anonymous"></script>
+</body>
+</html>
